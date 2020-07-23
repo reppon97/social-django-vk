@@ -1,0 +1,20 @@
+.auth-button {
+    text-align: center;
+}
+
+.auth-button a {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    background-color: cornflowerblue;
+    color: #FFF;
+}
+
+.own-info {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.friends {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}

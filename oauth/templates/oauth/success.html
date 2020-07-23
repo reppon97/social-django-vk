@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/static/css/main.css">
+    <title>
+        Success
+    </title>
+</head>
+<body>
+    <div class="own-info">
+        {% for my_info in own_info %}
+            My info: {{ my_info.first_name }} {{ my_info.last_name }}
+        {% endfor %}
+        <hr>
+        <br>
+        <br>
+    </div>
+    <div class="friends">
+        {% for user in users %}
+            Friend:
+                {{ user.first_name }} {{ user.last_name }}<hr>
+        {% endfor %}
+    </div>
+</body>
+</html>
